@@ -15,3 +15,20 @@
 '''
 es similar a como funciona en un condicionar
 '''
+
+
+#ejemplo continue:
+
+for letra in "python":
+  if letra == "h":
+    continue
+  print("Viendo la letra: " + letra)
+
+contador = 0
+nombre = "Diego Enrique Trinidad"
+for i in nombre:
+  if i == " ":
+    #continue
+    pass
+  contador+=1
+print(contador)
