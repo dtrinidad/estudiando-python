@@ -20,15 +20,33 @@ es similar a como funciona en un condicionar
 #ejemplo continue:
 
 for letra in "python":
-  if letra == "h":
-    continue
-  print("Viendo la letra: " + letra)
+    if letra == "h":
+        continue
+    print("Viendo la letra: " + letra)
 
 contador = 0
 nombre = "Diego Enrique Trinidad"
 for i in nombre:
-  if i == " ":
-    #continue
-    pass
-  contador+=1
+    if i == " ":
+      #continue
+      pass
+    contador+=1
 print(contador)
+
+
+#====================================================
+#       EJEMPLO else                      
+#----   
+print("Ejemplo uso de else el blucle for:\n")
+
+
+email="ing.dtrinidad@gmail.com"
+
+for i in email:
+    if i =="@":
+        arroba=True
+        break; #(Este break lo que provoca es que cuando sea leido, provocara que la ejecusion salga del bucle for )
+else:
+    arroba=False
+
+print(arroba)
