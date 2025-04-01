@@ -14,7 +14,7 @@ while numero < 0:
 
     numero=int(input("Introduce un numero por favor: "))
     if numero < 0:
-        intentos = intentos + 1
+        intentos += 1
         print(intentos)
 
 if intentos < 2:

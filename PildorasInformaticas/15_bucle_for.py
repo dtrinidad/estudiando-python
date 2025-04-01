@@ -7,7 +7,7 @@ def identificar_emails(mail):
         valido = "Valid!"
         for i in mail[mail.find("@"): len(mail)]:
             if i == "@":
-                arroba = arroba + 1
+                arroba += 1
                 if arroba != 1:
                     valido = "Not Valid"
 

@@ -13,7 +13,9 @@
 
 #else
 '''
-es similar a como funciona en un condicionar
+es similar a como funciona en un condicional
+20250401 -  ese comentario anterior fue una chapuza, en realidad esto en un bucle lo
+lo que hace es correr luego de que el bucle concluye todas las iteraciones. 
 '''
 
 
