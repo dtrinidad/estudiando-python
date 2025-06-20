@@ -1,0 +1,7 @@
+In Python you can use multimple structures to group different types of values
+In Python you can use list comprehention.
+In Python you can create objects.
+In Python you can use for loops to iterate over a variable. 
+In Python you can POO inheritance or compositions. 
+In Python you can crete web pages. 
+In Python you can create APIs.
